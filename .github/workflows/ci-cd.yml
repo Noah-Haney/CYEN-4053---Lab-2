@@ -3,7 +3,7 @@ name: Simple CI/CD Workflow
 on:
   push:
     branches:
-      - Main   # Run this workflow whenever code is pushed to the "main" branch
+      - mains   # Run this workflow whenever code is pushed to the "main" branch
 
 jobs:
   build:
